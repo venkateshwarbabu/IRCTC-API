@@ -89,17 +89,17 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	<dependencies>
-    <!-- Spring Cloud Eureka Client -->
-    <dependency>
+	
+   
+
+	
+	<dependencyManagement>
+		<dependencies>
+			 <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         <version>3.1.4</version>  <!-- Replace with a version that matches your Spring Boot version -->
     </dependency>
-</dependencies>
-	
-	<dependencyManagement>
-		<dependencies>
 			
 			<dependency>
 				<groupId>de.codecentric</groupId>
