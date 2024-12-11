@@ -46,11 +46,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-validation</artifactId>
         </dependency>
-		<!-- Spring Cloud Eureka Client -->
-    <dependency>
-        <groupId>org.springframework.cloud</groupId>
-        <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-    </dependency>
+	
         <dependency>
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
@@ -93,6 +89,14 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	<dependencies>
+    <!-- Spring Cloud Eureka Client -->
+    <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        <version>3.1.4</version>  <!-- Replace with a version that matches your Spring Boot version -->
+    </dependency>
+</dependencies>
 	
 	<dependencyManagement>
 		<dependencies>
